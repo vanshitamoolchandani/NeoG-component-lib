@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #004380;
+    --off-white: #F3F4F6;
+    --dark-red: #8b132f;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    align-items: center;
+}
+
+.heading-alignc{
+    text-align: center;
+}
+
+.heading{
+    color: var(--primary-color);
+
+}
+.heading-red{
+    color: var(--dark-red);
+}
+
+/** container **/
+.container {
+    padding: 0rem 1rem;
+    
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.header-img {
+    max-width: 80%;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+.section-img{
+    max-width: 80%;
+    width: 300px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+}
+.link-active{
+    font-weight: bold;
+}
+.link-primary{
+    background-color: var(--dark-red);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.inline{
+    display: inline;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border: 2px solid var(--dark-red);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.list-nobullets{
+    list-style: none;
+}
+
+.list-align{
+    padding: 0.1rem 1rem;
+}
+#hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+ #hp-left{
+        float: left;    
+        margin: 0 0 0 15px;
+    }
+
+.nav{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+}
+.nav-list{
+    color: white;
+    text-align: right;
+}
+.list-inline{
+display: inline;
+text-align: right;
+padding: 1rem;
+}
+
+/**Sections**/
+.section{
+padding: orem,1rem;
+margin: 1rem;
+}
+
+.section-offwhite{
+    background-color: var(--off-white);
+    padding-bottom: 1rem;
+    padding-top: 0.1rem;
+    padding-left: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.section-white{
+    padding-bottom: 1rem;
+    padding-top: 0.1rem;
+    padding-left: 1rem;
+    text-align: right;
+    padding-right: 3rem;  
+
+    /* display: inline; */
+    
+}
+.column {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    border-top: 1rem;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    padding-inline-start: 0px;
+    padding-bottom: 1rem;
+
+}
+.footer .link{
+    color: white;
+}
