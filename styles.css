@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+
 
 :root {
     --primary-color: #004380;
@@ -116,17 +118,16 @@ margin: 1rem;
     padding-left: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    width:100%;
 
 }
 .section-white{
     padding-bottom: 1rem;
     padding-top: 0.1rem;
     padding-left: 1rem;
-    text-align: right;
+    text-align: center;
     padding-right: 3rem;  
 
-    /* display: inline; */
+    
     
 }
 .column {
@@ -135,13 +136,11 @@ margin: 1rem;
     padding: 5px;
   }
   
-  /* Clear floats after image containers */
   .row:after {
     content: "";
     clear: both;
     display: table;
   }
-/** footer **/
 .footer{
     background-color: var(--primary-color);
     border-top: 1rem;
