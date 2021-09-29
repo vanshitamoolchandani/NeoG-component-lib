@@ -115,7 +115,6 @@ margin: 1rem;
     background-color: var(--off-white);
     padding-bottom: 1rem;
     padding-top: 0.1rem;
-    padding-left: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
 
@@ -154,3 +153,21 @@ margin: 1rem;
 .footer .link{
     color: white;
 }
+
+.line {
+             
+    /* Increase this as per requirement */
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+}
+
+.heading-red-blog{
+    padding-left: 3rem;
+
+}
+  
+/* .normal-underline {
+    text-decoration: underline;
+} */
